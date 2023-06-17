@@ -12,7 +12,8 @@ sp = tables[0].iloc[:, 0]
 sp_list = sp.values.tolist()
 sp_data = []
 
-output_file_path = "/Users/aadhav/downloads/sp_data.json"
+output_file_path = "/Users/yourname/downloads/sp_data.json"
+#replace yourname with your actual name or replace with desired filepath
 
 def getData(ticker):
     headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/114.0'}
