@@ -43,7 +43,7 @@ for i in sp_list:
     sp_data.append(getData(i))
     print('getting: ', i) 
 
-with open('sp_data', 'w') as f:
+with open('sp_data.json', 'w') as f:
     json.dump(sp_data, f)
 
 print('finished')
