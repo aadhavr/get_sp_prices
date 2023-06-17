@@ -26,6 +26,8 @@ def getData(ticker):
     price = soup.find('div', {'class': 'D(ib) Mend(20px)'}).find_all('fin-streamer')[0].text
     change = soup.find('div', {'class': 'D(ib) Mend(20px)'}).find_all('fin-streamer')[1].text
     percent_change = soup.find('div', {'class': 'D(ib) Mend(20px)'}).find_all('fin-streamer')[2].text
+    percent_change =  percent_change[:-1]
+    percent_change =  percent_change[1:]
 
 
     stock = {
