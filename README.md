@@ -1,6 +1,6 @@
 # S&P 500 Stock Information Web Scraper
 
-This web scraper is designed to retrieve stock information for companies listed in the S&P 500 index. It extracts the closing price, change, and change in percentage for each stock and returns the data in a JSON format.
+This web scraper is designed to retrieve stock information for companies listed in the S&P 500 index. It extracts the price, change, and change in percentage for each stock and returns the data in a JSON format.
 
 ## Prerequisites
 
