@@ -7,7 +7,8 @@ This web scraper is designed to retrieve stock information for companies listed 
 To use this web scraper, you will need the following:
 
 - Python 3.x installed on your machine.
-- Python libraries: `beautifulsoup4` and `requests`. You can install them using `python3 -m pip install beautifulsoup4 requests`.
+- Python libraries: `beautifulsoup4` and `requests`. You can install them using ```python3 -m pip install beautifulsoup4 requests```.
+- Know your user agent.
 
 ## Usage
 
@@ -19,7 +20,9 @@ To use this web scraper, you will need the following:
 
 4. Modify the output_file_path variable in the script to specify the desired file path for the output JSON file.
 
-5. Run the sp500_scraper.py script using the following command:
+5. Modify the user agent.
+
+6. Run the sp500_scraper.py script using the following command:
     
 ```
 python3 sp500_scraper.py
